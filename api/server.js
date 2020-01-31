@@ -5,7 +5,7 @@ const configureMiddleware = require("./middleware")
 configureMiddleware(server)
 
 server.get("/", (req,res) => {
-    res.json("hii")
+    res.json({api: "up"})
 })
 
 
